@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/listGradesFragment">
+
+    <fragment
+        android:id="@+id/listGradesFragment"
+        android:name="app.bruner.appforall.ui.listGrades.ListGradesFragment"
+        android:label="List Grades"
+        tools:layout="@layout/fragment_list_grades">
+        <action
+            android:id="@+id/action_listGradesFragment_to_addGradeFragment"
+            app:destination="@id/addGradeFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/addGradeFragment"
+        android:name="app.bruner.appforall.ui.addGrade.AddGradeFragment"
+        android:label="Add Grade"
+        tools:layout="@layout/fragment_add_grade" />
+</navigation>

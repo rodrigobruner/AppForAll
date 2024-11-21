@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">AppForAll</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Grade Entry</string>
+    <string name="menu_gallery">View grades</string>
+    <string name="menu_slideshow">Search</string>
+
+
+    <string name="form_first_name">First name</string>
+    <string name="form_last_name">Last name</string>
+    <string name="form_course">Course</string>
+    <string name="form_credits">Credits</string>
+    <string name="form_credits_socore_01">1</string>
+    <string name="form_credits_socore_02">2</string>
+    <string name="form_credits_socore_03">3</string>
+    <string name="form_credits_socore_04">4</string>
+    <string name="form_mark">Marks</string>
+    <string name="form_button">Save</string>
+
+    <string name="form_validation_first_name">First name is required</string>
+    <string name="form_validation_last_name">Last name is required</string>
+    <string name="form_validation_course">Please select a course</string>
+    <string name="form_validation_credits">Please select credits</string>
+    <string name="form_validation_marks">You haven not entered the marks, it will be 0</string>
+
+    <string name="msg_save_error">The data entered could not be saved.</string>
+    <string name="msg_save_success">Data saved successfully.</string>
+
+    <string name="msg_delete_error">Grade could not be deleted.</string>
+    <string name="msg_delete_success">Data deleted successfully.</string>
+
+    <string name="msg_update_error">Grade could not be updated.</string>
+    <string name="msg_update_success">Data updated successfully.</string>
+
+    <string name="msg_search_not_found">Grade not found </string>
+    <string name="msg_list_not_fund">No data located in the database.</string>
+
+
+    <string name="list_id">ID:</string>
+    <string name="list_course">Course:</string>
+    <string name="list_credits">Credits:</string>
+    <string name="list_mark">Mark:</string>
+
+
+    <string name="search_title_by">Search by</string>
+    <string name="search_id">ID</string>
+    <string name="search_course">Program code</string>
+    <string name="search_button">Search</string>
+
+</resources>

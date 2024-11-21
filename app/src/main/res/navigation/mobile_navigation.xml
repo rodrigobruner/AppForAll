@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_add_grade">
+
+    <fragment
+        android:id="@+id/nav_add_grade"
+        android:name="app.bruner.appforall.ui.addGrade.AddGradeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_add_grade" />
+
+    <fragment
+        android:id="@+id/nav_list_grades"
+        android:name="app.bruner.appforall.ui.listGrades.ListGradesFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_list_grades">
+        <!-- It is necessary to navigate between fragments-->
+        <action
+            android:id="@+id/action_listGradesFragment_to_addGradeFragment"
+            app:destination="@id/nav_add_grade" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_search"
+        android:name="app.bruner.appforall.ui.slideshow.SearchFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_search">
+        <!-- It is necessary to navigate between fragments-->
+        <action
+            android:id="@+id/action_searchFragment_to_addGradeFragment"
+            app:destination="@id/nav_add_grade" />
+    </fragment>
+</navigation>
