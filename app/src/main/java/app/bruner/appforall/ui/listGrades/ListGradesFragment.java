@@ -99,6 +99,7 @@ public class ListGradesFragment extends Fragment {
                         textViewMsg.setVisibility(View.VISIBLE);
                         return;
                     }
+                    textViewMsg.setVisibility(View.GONE);
                     gradesRecyclerViewAdapter.submitList(grades);
                 });
 

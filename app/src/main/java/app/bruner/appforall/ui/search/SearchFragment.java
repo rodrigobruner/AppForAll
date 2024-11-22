@@ -195,6 +195,7 @@ public class SearchFragment extends Fragment {
                             textViewMessages.setVisibility(View.VISIBLE);
                             return;
                         }
+                        textViewMessages.setVisibility(View.GONE);
                         gradesRecyclerViewAdapter.submitList(grades);
                     });
                 }
@@ -239,7 +240,7 @@ public class SearchFragment extends Fragment {
             });
         });
     }
-    
+
     @Override
     public void onDestroyView() {
         super.onDestroyView();
