@@ -1,4 +1,4 @@
-package app.bruner.appforall.ui.slideshow;
+package app.bruner.appforall.ui.search;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;

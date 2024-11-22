@@ -220,6 +220,7 @@ public class AddGradeFragment extends Fragment {
             }
             Toast.makeText(requireContext(), getString(R.string.msg_save_error), Toast.LENGTH_LONG).show();
         }
+        clearForm();
     }
 
     @Override
